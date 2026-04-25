@@ -42,12 +42,14 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
+<img width="465" height="135" alt="image" src="https://github.com/user-attachments/assets/95a50fbf-40a4-4d1d-9542-5a2d43915302" />
 
 
 
 cat < file2
 ## OUTPUT
 
+<img width="463" height="155" alt="484666963-b505f985-09ee-47ce-adc5-9bea5e817330" src="https://github.com/user-attachments/assets/5afdbddb-1984-4ed5-804e-06009760ab03" />
 
 # Comparing Files
 cmp file1 file2
@@ -55,10 +57,12 @@ cmp file1 file2
  
 comm file1 file2
  ## OUTPUT
+<img width="499" height="64" alt="484667208-984b77be-61b5-4ac9-8464-ca3312d7aff6" src="https://github.com/user-attachments/assets/5da8e3c1-fa7b-4fe2-9023-f538a24f9490" />
 
  
 diff file1 file2
 ## OUTPUT
+<img width="512" height="162" alt="484667414-1e5a2c91-53f0-4591-a263-55846159bed0" src="https://github.com/user-attachments/assets/80a192f9-337a-4b38-abf5-9352acee7a95" />
 
 
 #Filters
@@ -83,17 +87,20 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
+<img width="509" height="77" alt="484670152-109f5bf9-f166-4bc1-ada5-cbdbe17bfedd" src="https://github.com/user-attachments/assets/26b3ffde-ae15-4c0e-b375-6c354722049c" />
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
+<img width="547" height="91" alt="484670348-cda709bd-0c3b-4a71-8741-f3b61c9f82d2" src="https://github.com/user-attachments/assets/bd79a564-15a3-44e0-8d2f-aa614e0720cc" />
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
 
+<img width="547" height="91" alt="484670487-bdfc1d47-ebac-4258-95f8-ae04413e7431" src="https://github.com/user-attachments/assets/9b0c3c03-0fdc-4112-b5b3-3ad3d467fe83" />
 
 cat < newfile 
 ```
@@ -108,28 +115,33 @@ hello world
 grep Hello newfile 
 ## OUTPUT
 
+<img width="547" height="91" alt="484671090-b4150f17-c0e9-42a0-9454-41e21ff617fc" src="https://github.com/user-attachments/assets/01ef4fc2-8d4b-4328-b8a7-6b87a5a16024" />
 
 
 grep hello newfile 
 ## OUTPUT
 
+<img width="547" height="91" alt="484671090-b4150f17-c0e9-42a0-9454-41e21ff617fc" src="https://github.com/user-attachments/assets/2944a82d-2757-4162-8e8d-bae8429ce272" />
 
 
 
 grep -v hello newfile 
 ## OUTPUT
+<img width="547" height="91" alt="484671285-0aae26cc-6654-47bb-b74d-df56adea50b4" src="https://github.com/user-attachments/assets/3022d0bd-91ad-4d87-aed5-4873b6b3f4bb" />
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
 
+<img width="616" height="87" alt="484671743-7e24f554-9ef4-4139-b1e7-02364e4eb2a2" src="https://github.com/user-attachments/assets/111bae7d-0012-4408-ad24-af0b0c6b6a14" />
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
 
+<img width="631" height="87" alt="484671986-929de881-bf2f-40a8-a69b-fc12fc3a2740" src="https://github.com/user-attachments/assets/bea5207c-d2dc-430c-b3f3-0fc0019597f2" />
 
 
 
@@ -140,6 +152,7 @@ grep -R ubuntu /etc
 
 grep -w -n world newfile   
 ## OUTPUT
+<img width="632" height="79" alt="484672694-01fe8172-5201-421b-81de-a950b2991f03" src="https://github.com/user-attachments/assets/0871a587-ef6f-41c4-90d4-7a7515694bad" />
 
 
 cat < newfile 
@@ -164,41 +177,48 @@ Linux is best in this World
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
 
+<img width="632" height="79" alt="484673469-68386cc2-5ee7-4feb-8a9b-c418cdab64ca" src="https://github.com/user-attachments/assets/154a8808-e968-4f1b-893b-eea736c3a66a" />
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
+<img width="632" height="79" alt="484673920-b1ecb7f7-72f9-467e-b65d-1e343331219b" src="https://github.com/user-attachments/assets/4d10af93-de6d-439b-8ffb-d5e72b206e89" />
 
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
 
+<img width="632" height="79" alt="484674227-ffb478b6-7a27-468f-88da-2b77fb8b41ba" src="https://github.com/user-attachments/assets/616563cd-4d30-4350-878b-5b5f61a76129" />
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
-
+<img width="632" height="79" alt="484674413-ca3d9f39-b919-4303-87b5-f9fd22cd1963" src="https://github.com/user-attachments/assets/f1e47d0a-c582-4270-b8f5-63ee6e596081" />
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
 
+<img width="635" height="101" alt="484674622-a87b40af-f50b-43af-8042-0cb91e446c5e" src="https://github.com/user-attachments/assets/c5a39731-8f20-4699-b0d8-daaf0d7a32f6" />
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
+<img width="635" height="101" alt="484676199-fad60bcf-dd99-45f0-9b3e-cd36ef91d6de" src="https://github.com/user-attachments/assets/5e134ad0-75fb-4eef-9b36-cf78ebd80d87" />
 
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
 
+<img width="634" height="79" alt="484677542-00a0d275-f689-4f9d-b4ad-1638a9936a37" src="https://github.com/user-attachments/assets/7cb8ba8e-98e8-41d3-86cf-0e35496bdb92" />
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
 
+<img width="595" height="61" alt="484677843-2ed8b967-9875-4dd4-b19a-44853fa0e035" src="https://github.com/user-attachments/assets/f57eb79d-5e14-4075-9984-f6fadcfec76b" />
 
 
 egrep 'Linux.*world' newfile 
@@ -212,10 +232,12 @@ egrep 'Linux.*World' newfile
 egrep l{2} newfile
 ## OUTPUT
 
+<img width="621" height="75" alt="484679285-3638643c-d7fb-4ba7-9b4f-89293e743bdf" src="https://github.com/user-attachments/assets/73bfa1d3-772a-4215-9d7f-bfa5f636796a" />
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+<img width="615" height="98" alt="484679448-4022e3aa-f621-4eb8-ad0b-57cbbcaaa440" src="https://github.com/user-attachments/assets/26273cc7-02ff-4f3e-8919-0c550f61a59c" />
 
 
 cat > file23
